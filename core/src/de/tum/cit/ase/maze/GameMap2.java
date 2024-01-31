@@ -375,8 +375,3 @@ public class GameMap2 {
 }
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> origin/main
