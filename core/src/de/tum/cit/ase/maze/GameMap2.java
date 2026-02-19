@@ -212,12 +212,12 @@ public class GameMap2 {
 
 
                 if (!gameMapMap.containsKey(currentCoordinateTuple)
-                        || gameMapMap.get(currentCoordinateTuple) == 3
-                        || gameMapMap.get(currentCoordinateTuple) == 4
-                        || gameMapMap.get(currentCoordinateTuple) == 5) {
+                        || gameMapMap.get(currentCoordinateTuple) == 3 // Trap
+                        || gameMapMap.get(currentCoordinateTuple) == 4 // Enemy
+                        || gameMapMap.get(currentCoordinateTuple) == 5) { // KeyChest
                     cell.setTile(basicTilesSet.getTile(13)); // Floor
-                } else if (gameMapMap.get(currentCoordinateTuple) == 2) {
-                    cell.setTile(basicTilesSet.getTile(96)); // pathway
+                } else if (gameMapMap.get(currentCoordinateTuple) == 2) { // Door
+                    cell.setTile(basicTilesSet.getTile(96)); // Floor Tile
                 }else {
                     cell.setTile(mapTextures.get(gameMapMap.get(currentCoordinateTuple))); // Set the specified tile image
 

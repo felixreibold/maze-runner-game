@@ -111,7 +111,7 @@ public class Hud {
         scoreLabelText = new Label("SCORE", game.getSkin());
         scoreLabel = new Label(String.format("%06d", score), game.getSkin());
 
-        timeLabelText = new Label("Time", game.getSkin());
+        timeLabelText = new Label("TIME", game.getSkin());
         countdowLabel = new Label(String.format("%03d", worldTimer), game.getSkin()); //, new Label.LabelStyle(new BitmapFont(), Color.WHITE));
 
 

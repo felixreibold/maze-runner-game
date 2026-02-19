@@ -12,6 +12,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+import com.badlogic.gdx.utils.viewport.ExtendViewport;
+import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import games.spooky.gdx.nativefilechooser.NativeFileChooser;
@@ -47,6 +49,8 @@ public class MenuScreen implements Screen {
 
         Viewport viewport = new ScreenViewport(camera); // Create a viewport with the camera
         stage = new Stage(viewport, game.getSpriteBatch()); // Create a stage for UI elements
+        //ExtendViewport viewport = new ExtendViewport(MazeRunnerGame.V_WIDTH, MazeRunnerGame.V_HEIGHT, camera);
+        //stage = new Stage(viewport, game.getSpriteBatch());
 
         Table table = new Table(); // Create a table for layout
         table.setFillParent(true); // Make the table fill the stage

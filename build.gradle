@@ -49,6 +49,11 @@ allprojects {
 project(":desktop") {
     apply plugin: "java-library"
 
+    jar {
+        manifest {
+            attributes 'Main-Class': 'de.tum.cit.ase.maze.DesktopLauncher'
+        }
+    }
 
     dependencies {
         implementation project(":core")

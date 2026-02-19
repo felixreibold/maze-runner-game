@@ -38,9 +38,9 @@ public class MazeRunnerGame extends Game {
 
 
 
-    Stage uiStage;
+    /*Stage uiStage;
     Viewport uiViewport;
-    OrthographicCamera uiCamera;
+    OrthographicCamera uiCamera;*/
 
     // Sprite Batch for rendering
     private SpriteBatch spriteBatch;
@@ -222,7 +222,6 @@ public class MazeRunnerGame extends Game {
                 gameScreen = null;
             }
         }*/
-
 
         if (gameOverScreen != null) {
             gameOverScreen.dispose(); // Dispose the game screen if it exists
@@ -489,7 +488,7 @@ public class MazeRunnerGame extends Game {
         characterUpAnimation = new Animation<>(0.1f, walkFramesUp);
         characterLeftAnimation = new Animation<>(0.1f, walkFramesLeft);
 
-        characterFightDownAnimation = new Animation<>(0.1f, fightFramesDown);
+        characterFightDownAnimation = new Animation<>(0.1f , fightFramesDown);
         characterFightRightAnimation = new Animation<>(0.1f, fightFramesRight);
         characterFightUpAnimation = new Animation<>(0.1f, fightFramesUp);
         characterFightLeftAnimation = new Animation<>(0.1f, fightFramesLeft);
@@ -519,7 +518,7 @@ public class MazeRunnerGame extends Game {
      */
     public void resize(int width, int height) {
         // Update the viewport when the screen size changes
-        //uiViewport.update(width, height, true);
+        //Viewport.update(width, height, true);
     }
 
     /**
