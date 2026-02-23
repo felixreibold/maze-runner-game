@@ -27,7 +27,7 @@ Play through **5 campaign levels**: find the chest containing the key, fight ene
 There is no installer required. Download and start playing immediately:
 
 1. Go to the **Releases** section of this repository.
-2. Download the latest `.zip` file.
+2. Download the latest `MazeRunner-Windows-*.zip` file.
 3. Extract the archive. 
 4. Run: MazeRunner.exe (**Do not move MazeRunner.exe out of its folder, the game requires the included assets/ directory.**)
 
@@ -41,7 +41,7 @@ Requirements: Windows 10 or newer. No additional installation required (Java run
 The Linux version runs via Java (no installer required).
 
 1. Go to the **Releases** section of this repository.
-2. Download the latest **MazeRunner-Linux-*.zip** file.
+2. Download the latest `MazeRunner-Linux-*.zip` file.
 3. Extract the archive.
 4. Open a terminal inside the extracted folder.
 5. Make the launcher executable:
