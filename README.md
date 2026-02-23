@@ -31,7 +31,7 @@ MazeRunner.exe (Do NOT move the MazeRunner.exe out of its folder!)
 ## Controls
 - Movement: Arrow keys  
 - Attack: A  
-- (Optional) Pause/Menu: ESC
+- Pause/Menu: ESC
 
 ## Tech Stack
 
