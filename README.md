@@ -15,11 +15,52 @@ Play through **5 campaign levels**: find the chest containing the key, fight ene
 - 2D pixel-art aesthetic
 - Windows desktop build available via **Releases**
 
+## Installation (Windows)
+
+There is no installer required.
+
+1. Go to the **Releases** section of this repository.
+2. Download the latest `.zip` file.
+3. Extract the archive. 
+4. Run:
+
+MazeRunner.exe (Do NOT move the MazeRunner.exe out of its folder!)
+
+> If Windows shows a security warning, click **More Info → Run Anyway**.
+
 ## Controls
 - Movement: Arrow keys  
 - Attack: A  
 - (Optional) Pause/Menu: ESC
 
-## Run locally (dev)
+## Tech Stack
+
+- Java
+- libGDX
+
+
+## Run Locally (Development)
+
+### Requirements
+- Java (JDK 8+ recommended)
+
+### Run
+
+Windows (PowerShell):
+```powershell
+.\gradlew :desktop:run
+```
+
+Mac/Linux (Bash)
 ```bash
-./gradlew :desktop:run
+.\gradlew :desktop:run
+```
+
+## License
+
+This project is for educational and demonstration purposes and licensed under the MIT License.
+
+
+## Author
+
+Felix Reibold (M.Sc.)
