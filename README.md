@@ -15,18 +15,44 @@ Play through **5 campaign levels**: find the chest containing the key, fight ene
 - 2D pixel-art aesthetic
 - Windows desktop build available via **Releases**
 
-## Installation (Windows)
+## Installation
 
-There is no installer required. Download and start playing immediately by following these steps:
+### Windows
+
+There is no installer required. Download and start playing immediately:
 
 1. Go to the **Releases** section of this repository.
 2. Download the latest `.zip` file.
 3. Extract the archive. 
-4. Run:
+4. Run: MazeRunner.exe (**Do not move MazeRunner.exe out of its folder, the game requires the included assets/ directory.**)
 
-MazeRunner.exe (Do NOT move the MazeRunner.exe out of its folder!)
+Requirements: Windows 10 or newer. No additional installation required (Java runtime is bundled).
 
 > If Windows shows a security warning, click **More Info → Run Anyway**.
+
+---
+
+### Linux
+
+The Linux version runs via Java (no installer required).
+
+1. Go to the **Releases** section of this repository.
+2. Download the latest **MazeRunner-Linux-*.zip** file.
+3. Extract the archive.
+4. Open a terminal inside the extracted folder.
+5. Make the launcher executable:
+```bash
+chmod +x run.sh
+```
+6. Start the game (**Do not move MazeRunner.jar out of its folder, the game requires the included assets/ directory.**):
+```bash
+./run.sh
+```
+
+Requirements: Java 17 or newer (Java 21 recommended). Check your Java installation.
+```bash
+java -version
+```
 
 ## Controls
 - Movement: Arrow keys  
