@@ -13,7 +13,7 @@ Play through **5 campaign levels**: find the chest containing the key, fight ene
 - Enemies + combat
 - Custom map loading (play your own levels)
 - 2D pixel-art aesthetic
-- Windows desktop build available via **Releases**
+- Windows/Linux build available via **Releases**
 
 ## Controls
 - Movement: Arrow keys
